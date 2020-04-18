@@ -1,313 +1,313 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
+    <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="源文件\utils">
+    <Filter Include="Source Files\utils">
       <UniqueIdentifier>{f2b9550a-b104-41ae-8e5f-320b70f38d92}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\utils\console">
+    <Filter Include="Source Files\utils\console">
       <UniqueIdentifier>{73769a59-310d-4323-a896-8c07a9d2157f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\lua">
-      <UniqueIdentifier>{a76d92e8-9679-4988-a337-a2706cd82441}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\config">
-      <UniqueIdentifier>{5c04e561-5a12-4abe-aa4f-c9306d3dca8e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\sdk">
-      <UniqueIdentifier>{8bb5f1a2-3c74-48bc-92c2-90c351271c85}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\features">
-      <UniqueIdentifier>{2ce37699-2b60-49ee-91ea-0bd77bf5e271}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\gui">
-      <UniqueIdentifier>{7aa8311f-f21c-4f18-b5dc-89050cc8c983}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\utils\json">
+    <Filter Include="Source Files\utils\json">
       <UniqueIdentifier>{f58d2744-2489-411a-aa3e-8ce54fa63393}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\gui\imgui">
-      <UniqueIdentifier>{75d207d0-008c-4921-8975-c39faf29d114}</UniqueIdentifier>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{a76d92e8-9679-4988-a337-a2706cd82441}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\interfaces">
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{5c04e561-5a12-4abe-aa4f-c9306d3dca8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{8bb5f1a2-3c74-48bc-92c2-90c351271c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\interfaces">
       <UniqueIdentifier>{e5ebe826-677e-4efa-9a25-fed7bd90204f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils">
+    <Filter Include="Source Files\sdk\utils">
       <UniqueIdentifier>{60594d73-3c79-4f97-9d02-514526bc1001}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils\hooks">
+    <Filter Include="Source Files\sdk\utils\hooks">
       <UniqueIdentifier>{2681eace-f687-47be-a587-c05753e1017a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils\interfaces">
+    <Filter Include="Source Files\sdk\utils\interfaces">
       <UniqueIdentifier>{1fa80972-1295-4e82-b515-9b7602b91bd6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils\memory">
+    <Filter Include="Source Files\sdk\utils\memory">
       <UniqueIdentifier>{9911a13f-f3ed-4664-a80a-97e3ad7ab454}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils\netvars">
+    <Filter Include="Source Files\sdk\utils\netvars">
       <UniqueIdentifier>{db1db690-cac0-41cc-a082-28f29955191b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\sdk\utils\nSkinz">
+    <Filter Include="Source Files\sdk\utils\nSkinz">
       <UniqueIdentifier>{d28b7365-522a-42b9-a241-1270d630168a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{2ce37699-2b60-49ee-91ea-0bd77bf5e271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{7aa8311f-f21c-4f18-b5dc-89050cc8c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\imgui">
+      <UniqueIdentifier>{75d207d0-008c-4921-8975-c39faf29d114}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="utils\console\console.cpp">
-      <Filter>源文件\utils\console</Filter>
+      <Filter>Source Files\utils\console</Filter>
     </ClCompile>
     <ClCompile Include="lua\Clua.cpp">
-      <Filter>源文件\lua</Filter>
+      <Filter>Source Files\lua</Filter>
     </ClCompile>
     <ClCompile Include="config\config.cpp">
-      <Filter>源文件\config</Filter>
+      <Filter>Source Files\config</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_demo.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_draw.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_impl_dx9.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_impl_win32.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_stdlib.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="gui\imgui\imgui_widgets.cpp">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
     <ClCompile Include="sdk\interfaces\GlobalVars.cpp">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClCompile>
     <ClCompile Include="sdk\utils\interfaces\interfaces.cpp">
-      <Filter>源文件\sdk\utils\interfaces</Filter>
+      <Filter>Source Files\sdk\utils\interfaces</Filter>
     </ClCompile>
     <ClCompile Include="sdk\utils\memory\memory.cpp">
-      <Filter>源文件\sdk\utils\memory</Filter>
+      <Filter>Source Files\sdk\utils\memory</Filter>
     </ClCompile>
     <ClCompile Include="sdk\utils\netvars\netvars.cpp">
-      <Filter>源文件\sdk\utils\netvars</Filter>
+      <Filter>Source Files\sdk\utils\netvars</Filter>
     </ClCompile>
     <ClCompile Include="sdk\utils\hooks\hooks.cpp">
-      <Filter>源文件\sdk\utils\hooks</Filter>
+      <Filter>Source Files\sdk\utils\hooks</Filter>
     </ClCompile>
     <ClCompile Include="gui\gui.cpp">
-      <Filter>源文件\gui</Filter>
+      <Filter>Source Files\gui</Filter>
     </ClCompile>
     <ClCompile Include="utils\json\jsoncpp.cpp">
-      <Filter>源文件\utils\json</Filter>
+      <Filter>Source Files\utils\json</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\KeyState.h">
-      <Filter>源文件\utils</Filter>
+      <Filter>Source Files\utils</Filter>
     </ClInclude>
     <ClInclude Include="utils\console\console.h">
-      <Filter>源文件\utils\console</Filter>
+      <Filter>Source Files\utils\console</Filter>
     </ClInclude>
     <ClInclude Include="utils\Singleton.h">
-      <Filter>源文件\utils</Filter>
+      <Filter>Source Files\utils</Filter>
     </ClInclude>
     <ClInclude Include="lua\Clua.h">
-      <Filter>源文件\lua</Filter>
+      <Filter>Source Files\lua</Filter>
     </ClInclude>
     <ClInclude Include="config\config.h">
-      <Filter>源文件\config</Filter>
+      <Filter>Source Files\config</Filter>
     </ClInclude>
     <ClInclude Include="utils\json\json.h">
-      <Filter>源文件\utils\json</Filter>
+      <Filter>Source Files\utils\json</Filter>
     </ClInclude>
     <ClInclude Include="utils\json\json-forwards.h">
-      <Filter>源文件\utils\json</Filter>
+      <Filter>Source Files\utils\json</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imconfig.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imgui.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imgui_impl_dx9.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imgui_impl_win32.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imgui_internal.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imgui_stdlib.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imstb_rectpack.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imstb_textedit.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="gui\imgui\imstb_truetype.h">
-      <Filter>源文件\gui\imgui</Filter>
+      <Filter>Source Files\gui\imgui</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\AnimState.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ClassId.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Client.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ClientClass.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ConVar.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Cvar.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Engine.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\EngineTrace.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Entity.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\EntityList.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\FrameStage.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\GameEvent.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\GameMovement.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\GameUI.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\GlobalVars.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\GlowObjectManager.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Input.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\InputSystem.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ItemSchema.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Localize.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Material.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\MaterialSystem.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\matrix3x4.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ModelInfo.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ModelRender.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\MoveHelper.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\NetworkChannel.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Panel.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\PhysicsSurfaceProps.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Prediction.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Recv.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\RenderContext.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\RenderView.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\ResourceAccessControl.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\SoundEmitter.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\SoundInfo.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Surface.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\UserCmd.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Utils.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\UtlVector.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\VarMapping.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Vector.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\WeaponData.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\WeaponId.h">
-      <Filter>源文件\sdk\interfaces</Filter>
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\utils\interfaces\interfaces.h">
-      <Filter>源文件\sdk\utils\interfaces</Filter>
+      <Filter>Source Files\sdk\utils\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\utils\memory\memory.h">
-      <Filter>源文件\sdk\utils\memory</Filter>
+      <Filter>Source Files\sdk\utils\memory</Filter>
     </ClInclude>
     <ClInclude Include="sdk\utils\netvars\netvars.h">
-      <Filter>源文件\sdk\utils\netvars</Filter>
+      <Filter>Source Files\sdk\utils\netvars</Filter>
     </ClInclude>
     <ClInclude Include="sdk\utils\hooks\hooks.h">
-      <Filter>源文件\sdk\utils\hooks</Filter>
+      <Filter>Source Files\sdk\utils\hooks</Filter>
     </ClInclude>
     <ClInclude Include="sdk\utils\netvars\fnv.h">
-      <Filter>源文件\sdk\utils\netvars</Filter>
+      <Filter>Source Files\sdk\utils\netvars</Filter>
     </ClInclude>
     <ClInclude Include="gui\gui.h">
-      <Filter>源文件\gui</Filter>
+      <Filter>Source Files\gui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
