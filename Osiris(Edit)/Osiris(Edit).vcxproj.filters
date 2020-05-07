@@ -88,9 +88,6 @@
     <ClCompile Include="gui\imgui\imgui_widgets.cpp">
       <Filter>Source Files\gui\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="sdk\interfaces\GlobalVars.cpp">
-      <Filter>Source Files\sdk\interfaces</Filter>
-    </ClCompile>
     <ClCompile Include="sdk\utils\interfaces\interfaces.cpp">
       <Filter>Source Files\sdk\utils\interfaces</Filter>
     </ClCompile>
@@ -108,6 +105,12 @@
     </ClCompile>
     <ClCompile Include="utils\json\jsoncpp.cpp">
       <Filter>Source Files\utils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\GlobalVars.cpp">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\KeyValues.cpp">
+      <Filter>Source Files\sdk\interfaces</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +161,24 @@
     </ClInclude>
     <ClInclude Include="gui\imgui\imstb_truetype.h">
       <Filter>Source Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\interfaces\interfaces.h">
+      <Filter>Source Files\sdk\utils\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\memory\memory.h">
+      <Filter>Source Files\sdk\utils\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\netvars\netvars.h">
+      <Filter>Source Files\sdk\utils\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\hooks\hooks.h">
+      <Filter>Source Files\sdk\utils\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\netvars\fnv.h">
+      <Filter>Source Files\sdk\utils\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.h">
+      <Filter>Source Files\gui</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\AnimState.h">
       <Filter>Source Files\sdk\interfaces</Filter>
@@ -216,7 +237,13 @@
     <ClInclude Include="sdk\interfaces\ItemSchema.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
+    <ClInclude Include="sdk\interfaces\KeyValues.h">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClInclude>
     <ClInclude Include="sdk\interfaces\Localize.h">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\LocalPlayer.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Material.h">
@@ -240,6 +267,9 @@
     <ClInclude Include="sdk\interfaces\NetworkChannel.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
+    <ClInclude Include="sdk\interfaces\Pad.h">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClInclude>
     <ClInclude Include="sdk\interfaces\Panel.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
@@ -258,13 +288,13 @@
     <ClInclude Include="sdk\interfaces\RenderView.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="sdk\interfaces\ResourceAccessControl.h">
-      <Filter>Source Files\sdk\interfaces</Filter>
-    </ClInclude>
     <ClInclude Include="sdk\interfaces\SoundEmitter.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\SoundInfo.h">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\StudioRender.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\Surface.h">
@@ -285,29 +315,14 @@
     <ClInclude Include="sdk\interfaces\Vector.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
+    <ClInclude Include="sdk\interfaces\VirtualMethod.h">
+      <Filter>Source Files\sdk\interfaces</Filter>
+    </ClInclude>
     <ClInclude Include="sdk\interfaces\WeaponData.h">
       <Filter>Source Files\sdk\interfaces</Filter>
     </ClInclude>
     <ClInclude Include="sdk\interfaces\WeaponId.h">
       <Filter>Source Files\sdk\interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="sdk\utils\interfaces\interfaces.h">
-      <Filter>Source Files\sdk\utils\interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="sdk\utils\memory\memory.h">
-      <Filter>Source Files\sdk\utils\memory</Filter>
-    </ClInclude>
-    <ClInclude Include="sdk\utils\netvars\netvars.h">
-      <Filter>Source Files\sdk\utils\netvars</Filter>
-    </ClInclude>
-    <ClInclude Include="sdk\utils\hooks\hooks.h">
-      <Filter>Source Files\sdk\utils\hooks</Filter>
-    </ClInclude>
-    <ClInclude Include="sdk\utils\netvars\fnv.h">
-      <Filter>Source Files\sdk\utils\netvars</Filter>
-    </ClInclude>
-    <ClInclude Include="gui\gui.h">
-      <Filter>Source Files\gui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
