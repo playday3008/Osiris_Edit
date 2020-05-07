@@ -173,12 +173,12 @@ public:
 
     constexpr WeaponData* getWeaponData() noexcept
     {
-        return callVirtualMethod<WeaponData*>(this, 460);
+        return callVirtualMethod<WeaponData*>(this, 459);
     }
 
     constexpr float getInaccuracy() noexcept
     {
-        return callVirtualMethod<float>(this, 482);
+        return callVirtualMethod<float>(this, 481);
     }
 
     VarMap* getVarMap() noexcept
